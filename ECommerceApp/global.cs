@@ -1,2 +1,11 @@
 ﻿global using ECommerceApp.Models;
 global using System.ComponentModel.DataAnnotations;
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using ECommerceApp.Data;
+global using Microsoft.EntityFrameworkCore;
+global using ECommerceApp.Repositories;
+global using ECommerceApp.Repositories.Implementations;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Linq.Expressions;
